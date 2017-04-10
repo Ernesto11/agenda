@@ -1,91 +1,88 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
+<html lang="en">
+<html class="no-js">
+
+ <head>
+ 
+ 
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> 
         <meta charset="utf-8">
-        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
         <title>Agenda Nature</title>
-        
-   
-        
-        
     	<meta name="keywords" content="" />
 		<meta name="description" content="" />
-<!-- 
-Nature Theme 
-http://www.templatemo.com/tm-398-nature
--->
         <meta name="viewport" content="width=device-width">
-        
-        <!-- Google Web Font Embed -->
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700' rel='stylesheet' type='text/css'>
-        
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-         <link rel="stylesheet" type="text/css" href="css/calendario.css" media="all" />
-         <script type="text/javascript" src="js/calendario.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link rel="stylesheet" type="text/css" href="css/calendario.css" media="all" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo_main.css"> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+        <script type="text/javascript" src="js/calendario.js"></script>
   
-      <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+        <style>
+        @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 
-body {
-  background: #999;
-  padding: 40px;
-  font-family: "Open Sans Condensed", sans-serif;
-}
+		body {
+  			background: #999;
+  			padding: 40px;
+  			font-family: "Open Sans Condensed", sans-serif;
+		}
 
-#bg {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url(http://lorempixel.com/800/500/nature) no-repeat center center fixed;
-  background-size: cover;
-  -webkit-filter: blur(5px);    
-}
+		#bg {
+  			position: fixed;
+  			left: 0;
+  			top: 0;
+  			width: 100%;
+  			height: 100%;
+  			background: url(http://lorempixel.com/800/500/nature) no-repeat center center fixed;
+  			background-size: cover;
+  			-webkit-filter: blur(5px);    
+		}
 
-form {
-  position: relative;
-  width: 250px;
-  margin: 0 auto;
-  background: rgba(130,130,130,.3);
-  padding: 20px 22px;
-  border: 1px solid;
-  border-top-color: rgba(255,255,255,.4);
-  border-left-color: rgba(255,255,255,.4);
-  border-bottom-color: rgba(60,60,60,.4);
-  border-right-color: rgba(60,60,60,.4);
-}
+		form {
+  			position: relative;
+  			width: 250px;
+  			margin: 0 auto;
+  			background: rgba(130,130,130,.3);
+  			padding: 20px 22px;
+  			border: 1px solid;
+  			border-top-color: rgba(255,255,255,.4);
+  			border-left-color: rgba(255,255,255,.4);
+  			border-bottom-color: rgba(60,60,60,.4);
+  			border-right-color: rgba(60,60,60,.4);
+		}	
 
-form input, form button {
-  width: 212px;
-  border: 1px solid;
-  border-bottom-color: rgba(255,255,255,.5);
-  border-right-color: rgba(60,60,60,.35);
-  border-top-color: rgba(60,60,60,.35);
-  border-left-color: rgba(80,80,80,.45);
-  background-color: rgba(0,0,0,.2);
-  background-repeat: no-repeat;
-  padding: 8px 24px 8px 10px;
-  font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
-  letter-spacing: .075em;
-  color: #fff;
-  text-shadow: 0 1px 0 rgba(0,0,0,.1);
-  margin-bottom: 19px;
-}
+		form input, form button {
+  			width: 212px;
+  			border: 1px solid;
+  			border-bottom-color: rgba(255,255,255,.5);
+  			border-right-color: rgba(60,60,60,.35);
+  			border-top-color: rgba(60,60,60,.35);
+  			border-left-color: rgba(80,80,80,.45);
+  			background-color: rgba(0,0,0,.2);
+  			background-repeat: no-repeat;
+  			padding: 8px 24px 8px 10px;
+  			font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+  			letter-spacing: .075em;
+  			color: #fff;
+  			text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  			margin-bottom: 19px;
+		}
 
-form input:focus { background-color: rgba(0,0,0,.4); }
+		form input:focus { background-color: rgba(0,0,0,.4); }
 
-form input.email {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAMCAYAAAC9QufkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6M0YwNDIzMTQ3QzIzMTFFMjg3Q0VFQzhDNTgxMTRCRTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6M0YwNDIzMTU3QzIzMTFFMjg3Q0VFQzhDNTgxMTRCRTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozRjA0MjMxMjdDMjMxMUUyODdDRUVDOEM1ODExNEJFNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozRjA0MjMxMzdDMjMxMUUyODdDRUVDOEM1ODExNEJFNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsOChsgAAADUSURBVHjaYvz///9JBgYGMwbSwSkGoOafQPwKiAOBmIEIHAXED0H6QJwPQGwAxE+AOJOAxnwgvgfEKiB9MM0gWg6IbwNxIw6NXUB8HogloHwUzSAsBAoDIJ4DxMxQMRA9H4gPADE/kloMzSCsBcR/gHgj1LAt0HBRR1P3gQktBA2AeBcQZwHxCyB+AsT3gTgFKq6FohrJZnssoW6AxPaDBqoZurP9oBrtCYS2ExA/h9JgzX+gAsZExrMZVP0fmGZ1IjWiBCoL0NsXgPgGGcnzLECAAQD5y8iZ2Z69IwAAAABJRU5ErkJggg==);
+		form input.email {
+  			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAMCAYAAAC9QufkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6M0YwNDIzMTQ3QzIzMTFFMjg3Q0VFQzhDNTgxMTRCRTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6M0YwNDIzMTU3QzIzMTFFMjg3Q0VFQzhDNTgxMTRCRTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozRjA0MjMxMjdDMjMxMUUyODdDRUVDOEM1ODExNEJFNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozRjA0MjMxMzdDMjMxMUUyODdDRUVDOEM1ODExNEJFNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsOChsgAAADUSURBVHjaYvz///9JBgYGMwbSwSkGoOafQPwKiAOBmIEIHAXED0H6QJwPQGwAxE+AOJOAxnwgvgfEKiB9MM0gWg6IbwNxIw6NXUB8HogloHwUzSAsBAoDIJ4DxMxQMRA9H4gPADE/kloMzSCsBcR/gHgj1LAt0HBRR1P3gQktBA2AeBcQZwHxCyB+AsT3gTgFKq6FohrJZnssoW6AxPaDBqoZurP9oBrtCYS2ExA/h9JgzX+gAsZExrMZVP0fmGZ1IjWiBCoL0NsXgPgGGcnzLECAAQD5y8iZ2Z69IwAAAABJRU5ErkJggg==);
   background-position: 220px 10px;
 }
 
-form input.pass {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAQCAYAAADNo/U5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTVFMDg1QzU3QzIzMTFFMjgwQThGODZFM0EwQUZFQ0YiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTVFMDg1QzY3QzIzMTFFMjgwQThGODZFM0EwQUZFQ0YiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NUUwODVDMzdDMjMxMUUyODBBOEY4NkUzQTBBRkVDRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1NUUwODVDNDdDMjMxMUUyODBBOEY4NkUzQTBBRkVDRiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv2NSIIAAADYSURBVHjanJAxCsJAEEXXaBMQtvIMqTxDKjtPELC1svMoOYM2WlqIhVcQFMVgG7ATAoIggfGPjrLIrBo/vCzZ+Z+dGUNExiECI7Clhw5gAtqur8YfUQxm4AzGIAMRSIAFXbC8OyUdghwsgH173cp9Lr5XqAeOSsANcj3h/8BpbQ4Ko6uQOvtMQy6noG4+iz3XZ4iHbIEQ9L8EeUlN3t5etvSrMg6RqajAc78BQ7BTq6QrllV3tKLvpZOclyrt/TWTlTP0zVQqba/BAKyUWsmh1BPUxL70JsAABHkyyK1uocIAAAAASUVORK5CYII=);
+		form input.pass {
+  			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAQCAYAAADNo/U5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTVFMDg1QzU3QzIzMTFFMjgwQThGODZFM0EwQUZFQ0YiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTVFMDg1QzY3QzIzMTFFMjgwQThGODZFM0EwQUZFQ0YiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NUUwODVDMzdDMjMxMUUyODBBOEY4NkUzQTBBRkVDRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1NUUwODVDNDdDMjMxMUUyODBBOEY4NkUzQTBBRkVDRiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv2NSIIAAADYSURBVHjanJAxCsJAEEXXaBMQtvIMqTxDKjtPELC1svMoOYM2WlqIhVcQFMVgG7ATAoIggfGPjrLIrBo/vCzZ+Z+dGUNExiECI7Clhw5gAtqur8YfUQxm4AzGIAMRSIAFXbC8OyUdghwsgH173cp9Lr5XqAeOSsANcj3h/8BpbQ4Ko6uQOvtMQy6noG4+iz3XZ4iHbIEQ9L8EeUlN3t5etvSrMg6RqajAc78BQ7BTq6QrllV3tKLvpZOclyrt/TWTlTP0zVQqba/BAKyUWsmh1BPUxL70JsAABHkyyK1uocIAAAAASUVORK5CYII=);
   background-position: 223px 8px
 }
 
@@ -93,44 +90,37 @@ form input.pass {
 ::-moz-placeholder { color: #ccc; text-transform: uppercase; }
 :-ms-input-placeholder { color: #ccc; text-transform: uppercase; }
 
-form button[type=submit] {
-  width: 248px;
-  margin-bottom: 0;
-  color: #3f898a;
-  letter-spacing: .05em;
-  text-shadow: 0 1px 0 #133d3e;
-  text-transform: uppercase;
-  background: #225556;
-  border-top-color: #9fb5b5;
-  border-left-color: #608586;
-  border-bottom-color: #1b4849;
-  border-right-color: #1e4d4e;
-  cursor: pointer;
-}
+		form button[type=submit] {
+  			width: 248px;
+  			margin-bottom: 0;
+  			color: #3f898a;
+  			letter-spacing: .05em;
+  			text-shadow: 0 1px 0 #133d3e;
+  			text-transform: uppercase;
+  			background: #225556;
+  			border-top-color: #9fb5b5;
+  			border-left-color: #608586;
+ 			border-bottom-color: #1b4849;
+  			border-right-color: #1e4d4e;
+  			cursor: pointer;
+		}
 
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
+		.button {
+    		background-color: #4CAF50; /* Green */
+    		border: none;
+    		color: white;
+    		padding: 15px 32px;
+    		text-align: center;
+    		text-decoration: none;
+    		display: inline-block;
+    		font-size: 16px;
+		}
     </style>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-        
-        
-        
-        
-        
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/templatemo_main.css">
+
     </head>
     <body>
-        <div id="main-wrapper">
+     <div id="main-wrapper">
             <!--[if lt IE 7]>
                 <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a rel="nofollow" href="http://browsehappy.com">upgrade your browser</a> or <a rel="nofollow" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
             <![endif]-->
@@ -149,9 +139,8 @@ form button[type=submit] {
                     <li class="active home-menu"><a href="#home">Inicio</a></li>
                     <li class="about-menu"><a href="#about">Registrar Evento</a></li>
                     <li class="services-menu"><a href="#services">Ver Evento</a></li>
-                    <li class="testimonial-menu"><a href="#testimonial">Testimonials</a></li>
-                    <li class="contact-menu"><a href="#contact">Contact</a></li>
-                    <li><a rel="nofollow" target="_parent" href="http://www.facebook.com/templatemo" class="external">FB Page</a></li>
+                    <li class="testimonial-menu"><a href="#testimonial">Terminar Evento</a></li>
+                    <li class="contact-menu"><a href="#contact">Frases Motivacionales</a></li>
                 </ul>
             </div><!-- /.menu -->
 
@@ -225,18 +214,23 @@ form button[type=submit] {
                                 <label for="">Fecha Evento:</label>
                                 <input id="fecha" type="date" name="fecha" step="1" min="2017-01-01" max="2017-12-31" value="2017-04-01">
     
+                                <label for="">Hora Evento:</label>
+                                <input id="hora" type="time" name="hora" value="11:45:00" max="24:59:00" min="00:00:00" step="1">
+                                
   								<label for="">Curso</label>
-  								<input type="text" name="curso" id="curso" placeholder="Curso" >
+  								<input type="text" name="curso" id="curso" placeholder="Curso" required/>
     
  								<label for="">Descripcion</label>
-  								<input type="text" name="descripcion" id="descripcion" placeholder="descripción">
+  								<input type="text" name="descripcion" id="descripcion" placeholder="descripción" required/>
                                 
-                                <label for="">Prioridad </label>
-                                <input id="prioridad" type="radio" name="prioridad" value="alta"><label>Alta-Urgente.</label>
-  								<input id="prioridad" type="radio" name="prioridad" value="media"><label>Media.</label>
-  								<input id="prioridad" type="radio" name="prioridad" value="baja"><label>Baja.</label>
+                                <label for="">Prioridad: </label>
+<select id="prioridad">
+  <option value="alta">alta</option>
+  <option value="media">media</option>
+  <option value="baja">baja</option>
+</select>
     
-  								<button class="button" type="button">Registrar</button>
+  								<button id="btnRegistrar" class="button" type="button">Registrar Evento</button>
     
 							</form>
                             <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -245,61 +239,95 @@ form button[type=submit] {
                         </section><!-- /.about-text --> 
 
                         <section id="services-text" class="inactive">
-                            <h2 class="text-center">Our Services</h2>
+                            <h2 class="text-center">Ver Eventos:Prioridad</h2>
                             <div class="col-sm-4 col-md-4">
-                                <h3>Marketing</h3>
-                                <p>Nullam vitae lectus dui. Donec vulputate ac tortor id convallis. Sed nisi mauris, laoreet vitae lacus at, viverra viverra neque. Curabitur nec aliquam lacus.</p>
+                                <h3>Alta</h3>
+                                
+                                   <ul id="altaP">
+       							   <li>
+            							<b>Evento: </b> Descripción.
+        							</li>
+    								</ul> 
+                                
                             </div>
                             <div class="col-sm-4 col-md-4">
-                                <h3>Public Relations</h3>
-                                <p>Maecenas aliquam vitae urna sit amet elementum. Cras consequat libero nisi, vel condimentum nibh eleifend ut. Donec consequat arcu.</p>
+                                <h3>Media</h3>
+
+                                   <ul id="mediaP">
+       							   <li>
+            							<b>Evento: </b> Descripción.
+        							</li>
+    								</ul> 
+                                
+
                             </div>
                             <div class="col-sm-4 col-md-4">
-                                <h3>Digital Media</h3>
-                                <p>In tellus ipsum, ullamcorper vitae justo sit amet, mattis consequat tortor. Suspendisse risus urna, posuere id orci ut, facilisis accumsan ipsum.</p>
+                                <h3>Baja</h3>
+                                   <ul id="bajaP">
+       							   <li>
+            							<b>Evento: </b> Descripción.
+        							</li>
+    								</ul> 
+                                
                             </div>
                         </section><!-- /.services-text --> 
 
                         <section id="testimonial-text" class="inactive">
                             <div class="col-sm-12 col-md-12">
-                                <h2>Testimonials</h2>
-                                <p>Quisque non tempus lacus, non placerat arcu. Donec nibh ipsum, pharetra nec pellentesque at, mattis ut lorem. Fusce dapibus tristique neque, eget ultricies lorem tincidunt vitae. Aliquam erat volutpat. Suspendisse non sem a leo mattis dapibus. Duis vel ornare arcu. Quisque at malesuada tortor.</p>
-                                <p>Integer vulputate ultricies nisl, sed vehicula justo accumsan non. Aenean quis semper metus. Maecenas adipiscing, leo a facilisis tempor, mi quam feugiat eros, ullamcorper porttitor elit turpis ac risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h2>Terminar Evento</h2>
+                                
+                                Falta actualizar
                             </div>
                         </section><!-- /.testimonial-text --> 
-
-                        <section id="contact-text" class="inactive">
+                        
+                            <section id="contact-text" class="inactive">
                             <div class="col-sm-12 col-md-12">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-12"><h2>Contact</h2></div>
-                                    <div class="clearfix"></div>
-                                </div>
+                                <h2>Testimonials</h2>
+<p>
+El dolor es algo temporal, puede durar un minuto, una hora, un día, o un año, pero al final se acabará y otra cosa tomará su lugar. Sin embargo, si me rindo ese dolor será para siempre.(Lance Armstrong)
+</p>                                
                                 
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-6">
-                                        <div id="map-canvas"></div>
-                                        <p>990 Digital Street, New Forest Area, San Francisco, CA 10660</p>
-                                    </div>
+                                <p>Al mundo no le importará tu autoestima. El mundo esperará que logres algo, independientemente de que te sientas bien o no contigo mismo. (Bill Gates)</p>
 
-                                    <div class="col-sm-6 col-md-6">
-                                        <form action="#" method="post">
+<p>
+No huyo de un reto porque tenga miedo. Al contrario, corro hacia el reto porque la única forma de escapar al miedo es arrollarlo con tus pies.(Nadia Comaneci)
+</p>
+<p>
+Tu tiempo es limitado, así que no lo malgastes viviendo la vida de otra persona [...] No dejes que el ruido de las opiniones de otros apague tu propia voz interior”.(Steve Jobs)</p>
+<p>
+"Sólo un hombre que sabe lo que se siente al ser derrotado puede llegar hasta el fondo de su alma y sacar lo que le queda de energía para ganar un combate que está igualado".
+</p>
+                                <p>
+                                Decimos a nuestros empleados que si nadie se ríe al menos de una de sus ideas, probablemente es que no están siendo lo suficientemente creativos. (Bill Gates)
+                                </p>
+<p>
+Cuando tenía 17 años, leí una cita que decía algo como: “Si vives cada día como si fuera el último, algún día sin duda estarás en lo cierto”. Causó una honda impresión en mí, y desde entonces, por los últimos 33 años, me he mirado en el espejo cada mañana y me pregunto: “Si hoy fuera el último día de mi vida, ¿querría hacer lo que voy a hacer hoy?” Y si la respuesta es no por demasiados días seguidos, sé que necesito cambiar algo.(Steve Jobs)
+</p>   
+                             
+                                
+                                <p>
+                                Si quieres hacer algo grande en tu vida, debes recordar que la timidez está solo en la mente. Si piensas con timidez, tus actos serán similares. Pero si piensas con seguridad, actuaras de la misma forma. Por ello nunca dejes que la timidez conquiste tu mente.(Bill Gates)
+                                </p>
+<p>
+ "Imposible es solo una palabra que utilizan los débiles que encuentran más fácil vivir en el mundo que les han dado que explorar el poder que tienen para cambiarlo. Imposible no es un hecho. Es una opinión. Imposible no es una declaración. Es un desafío. Imposible es potencial. Imposible es temporal. Nada es imposible".
+</p>
 
-                                                <div class="form-group">
-                                                    <!--<label for="contact_name">Name:</label>-->
-                                                    <input type="text" id="contact_name" class="form-control" placeholder="Name" />
-                                                </div>
-                                                <div class="form-group">
-                                                    <!--<label for="contact_email">Email:</label>-->
-                                                    <input type="text" id="contact_email" class="form-control" placeholder="Email Address" />
-                                                </div>
-                                                <div class="form-group">
-                                                    <!--<label for="contact_message">Message:</label>-->
-                                                    <textarea id="contact_message" class="form-control" rows="7" placeholder="Write a message"></textarea>
-                                                </div>
-                                                <button type="submit" class="btn btn-primary">Send</button>
-
-                                        </form>
-                                    </div>
+<p>
+Tu tiempo es limitado, de modo que no lo malgastes viviendo la vida de alguien distinto. No quedes atrapado en el dogma, que es vivir como otros piensan que deberías vivir. No dejes que los ruidos de las opiniones de los demás acallen tu propia voz interior. Y, lo que es más importante, ten el coraje para hacer lo que te dicen tu corazón y tu intuición.(Steve Jobs).
+<p/>  
+<p>
+"No cuentes los días: consigue que los días cuenten".
+</p>
+<p>
+"Cuando tienes razón, nadie lo recuerda; cuando estás equivocado, nadie lo olvida".
+</p>
+<p>  
+Cuando eres un carpintero haciendo un hermoso mueble de cajones, no vas a usar un pedazo de madera contrachapada en la espalda, a pesar de que se quede ne la pared y nadie lo verá. Sabrás que está ahí, así que vamos a usar una hermosa pieza de madera en la espalda. Para dormir bien por la noche, la estética, la calidad, tiene que ser llevada hasta el final.(Steve Jobs)
+<p/> 
+                            </div>
+                        </section>              
+                        
+                       
                                     
                                     <div class="clearfix"></div>
                                 </div>
@@ -321,7 +349,84 @@ form button[type=submit] {
         
         <div id="preloader">
             <div id="status">&nbsp;</div>
-        </div><!-- /#preloader -->
+        </div>
+        
+        
+<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAVOJXT77pSgK66oga6eo0pGRoFlDgFScU",
+    authDomain: "agendademo-a94ed.firebaseapp.com",
+    databaseURL: "https://agendademo-a94ed.firebaseio.com",
+    projectId: "agendademo-a94ed",
+    storageBucket: "agendademo-a94ed.appspot.com",
+    messagingSenderId: "548605514942"
+  };
+  firebase.initializeApp(config);
+  
+  var txtFecha           = document.getElementById('fecha');
+  var txtHora            = document.getElementById('hora');
+  var txtCurso           = document.getElementById('curso');
+  var txtDescripcion     = document.getElementById('descripcion');
+  var txtPrioridad       = document.getElementById('prioridad');
+  var btnRegistrar       = document.getElementById('btnRegistrar');
+  
+  
+ btnRegistrar.addEventListener("click",function(){
+    var fechaEvento        = txtFecha.value;
+    var horaEvento         = txtHora.value;
+    var cursoEvento        = txtCurso.value;
+	var descripcionEvento  = txtDescripcion.value;
+	var prioridadEvento    = txtPrioridad.value;
+	
+
+    firebase.database().ref('evento').push({
+        fecha: fechaEvento,
+        hora: horaEvento,
+        curso: cursoEvento,
+		descripcion: descripcionEvento,
+		prioridad: prioridadEvento,
+		
+    });
+    alert('Evento registrado correctamente.');
+    document.getElementById("regEvento").reset();
+  });
+  
+  firebase.database().ref('evento').orderByChild('fecha').on('value',function(snapshot){
+		  
+    var htmlA = '';
+	var htmlM = '';
+	var htmlB = '';
+    snapshot.forEach(function(e){
+        var element = e.val();
+        var curso =  element.curso;
+        var descripcion =  element.descripcion;
+		var fecha = element.fecha;
+		var hora = element.hora;
+		var priori = element.prioridad;
+		if(priori ==="alta"){
+			htmlA += "<li><b>---------------------------------</b><br><b>Curso: </b>"+curso+"<br><b>Descripción: </b>"+descripcion+"<br><b>Fecha: </b>"+fecha+"<br><b> Hora: </b>"+hora+"<br><b>---------------------------------</b><br></li>";			
+		}
+		if(priori === "media"){
+			htmlM += "<li><b>---------------------------------</b><br><b>Curso: </b>"+curso+"<br><b>Descripción: </b>"+descripcion+"<br><b>Fecha: </b>"+fecha+"<br><b> Hora: </b>"+hora+"<br><b>---------------------------------</b><br></li>";				
+		}
+		if(priori === "baja"){
+			htmlB += "<li><b>---------------------------------</b><br><b>Curso: </b>"+curso+"<br><b>Descripción: </b>"+descripcion+"<br><b>Fecha: </b>"+fecha+"<br><b> Hora: </b>"+hora+"<br><b>---------------------------------</b><br></li>";				
+		}
+
+    });
+    altaP.innerHTML = htmlA;
+	bajaP.innerHTML = htmlB;
+	mediaP.innerHTML = htmlM;
+  });
+  
+    
+  
+  
+  
+</script>
+
         
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery.backstretch.min.js"></script>

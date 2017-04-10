@@ -4,7 +4,7 @@
 h1 { text-align: center; padding: 0.5em; }
 /*div principal del calendario*/
 #calendario { border: 4px double black ; max-width: 606px; 
-              background-color:#1E94F5; text-align: center; height: 328px;}
+              background-color:#FFFFFF; text-align: center; height: 328px;}
 /*tabla del calendario*/
 #diasc { border: 1px solid black; border-collapse: 
          separate; border-spacing: 4px; }
